@@ -16,4 +16,4 @@ png(filename = './figures/plot1.png', width = 480, height = 480, units='px')
 dev.new()
 with(data, hist(Global_active_power, xlab = 'Global Active Power (kilowatt)', main = 'Global Active Power', col = 'red'))
 # close device
-dev.off()4
+dev.off()
